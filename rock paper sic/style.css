@@ -1,0 +1,51 @@
+.restart:hover {
+  
+  color: #fff;
+}
+
+body {
+  background-color:rgb(25, 4, 39);
+  text-align: center;
+}
+header{
+	width: 100%;
+	height: 25%;
+	padding-top: 50px;
+  background-color: #ecf0f1;
+  box-sizing: border-box;
+
+}
+
+header h1{
+	text-align: center;
+  margin: 10;
+  top: 10;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 100px;
+  transition: 100ms;
+}
+
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+
+
+.a{
+
+  color: #fff;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.2rem;
+  color: #fff;
+}
